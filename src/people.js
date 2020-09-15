@@ -5,7 +5,6 @@ const people = [
 ];
 
 for (const person of people) {
+    // Build a table (using the dom) and add the people above
     console.log(person);
 }
-
-;
