@@ -1,7 +1,6 @@
-# Master17GitProje
+# Master17GitProject
 
-This is a projext for Cohort 17 to gain Git experience.
-
-Tools needed:           Computer
-Working on this are:    Cohort 17 @ CodeNation
-For any help:           Mr Neil Munro
+Useful Info:            A project for Cohort to play with using git.
+Tools needed:           Computer.
+Working on this are:    Cohort 17
+Project help:           Mr Neil Munro
