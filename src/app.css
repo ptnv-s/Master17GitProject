@@ -1,7 +1,12 @@
 nav {
     border-bottom: 1px solid black;
 }
-
+.crumbs ol {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
 .crumbs ol {
     list-style-type: none;
     padding-left: 0;
@@ -9,6 +14,7 @@ nav {
 
 .crumb {
     display: inline-block;
+   
 }
 
 .crumb a::after {
