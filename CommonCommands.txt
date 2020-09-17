@@ -1,0 +1,6 @@
+$ git init - this initialises a local .git repository in the folde that you are in within command prompt.
+$ git branch [branch-name] - this creates a new branch within the git repository you are working in.
+$ git checkout [branch-name] - this allows you to switch to the named branch and updates the directory. (adding -b allows you to create a branch and switch to it)
+$ git merge [branch] - this combines the chosen branch with the branch you are currently in.
+$ git branch -d [branch-name] - this deletes the named branch
+
