@@ -19,3 +19,12 @@ nav {
     font-weight: bold;
     padding: 0 3px;
 }
+#currentpageindex{
+    font-weight: bold;
+}
+#currentpagepeople{
+    font-weight: bold;
+}
+#currentpagepets{
+    font-weight: bold; 
+}
