@@ -1,3 +1,2 @@
 # Master17GitProject
-hello this is extra text
-from me
+Git Poject gets students used to Git and GitKraken
