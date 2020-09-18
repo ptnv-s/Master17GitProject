@@ -1,0 +1,41 @@
+Explanations of some DOM stuff and links to good sites for help
+
+Websites:
+Mozilla https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model
+
+Eloquent Javascript https://eloquentjavascript.net/14_dom.html
+
+Devdocs (all dom commands listsed here) https://devdocs.io/dom/ 
+
+Tutorialspoint (practical example) https://www.tutorialspoint.com/javascript/javascript_html_dom.htm
+
+Geeks for Geeks (how to use the dom) https://www.geeksforgeeks.org/dom-document-object-model/
+
+Most commonaly used commands:
+
+querySelector() - returns the first instance of all matching elements
+Syntax example: let ele = document.querySelector('div');
+
+querySelectorAll() - returns all elements that match the specified CSS selector
+Syntax example: let ele = document.querySelectorAll('p');
+
+
+getElementById() - targets a particular Id by name in HTML doc
+Syntax example: let id = document.getElementById('id')
+
+
+getElementsByClassName() - targets particular classes by name in HTML doc
+Syntax example: let eles = document.getElementsByClassName('div')
+
+getElementsByTagName() - targets elements given a tag name in a HTML doc
+Syntax example: let tags = document.getElementsByTagName(tagname)
+
+
+createElement() - creates an element in a HTML doc
+Syntax example: const heading = document.createElement("h1)
+
+createTextNode() - creates a text node in a HTML doc
+Syntax example: const heading_text = document.createTextNode("This Heading!")
+
+
+
