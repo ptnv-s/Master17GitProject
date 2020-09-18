@@ -1,3 +1,3 @@
-it('This test will fail', done => {
-  done.fail(new Error('This is the error'))
+test('This test will pass', () => {
+  expect(1).toBe(1);
 });
