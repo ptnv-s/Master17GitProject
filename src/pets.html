@@ -9,9 +9,9 @@
     <header>
       <nav class="crumbs">
         <ol>
-          <li class="crumb"><a href="index.html">Home</a></li>
+          <li class="crumb"><a href="index.html" >Home</a></li>
           <li class="crumb"><a href="people.html">People</a></li>
-          <li class="crumb"><a href="pets.html">Pets</a></li>
+          <li class="crumb currentpage"><a href="pets.html">Pets</a></li>
         </ol>
       </nav>
     </header>
@@ -19,9 +19,24 @@
     <main>
       <h1>Pets</h1>
       <div id="wrapper">
-        Pet database will go here
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Species</th>
+            </tr>
+          </thead>
+          <tbody id="pet-table">
+            <tr>
+              <td></td>
+              <td></td>
+            </tr>
+          </tbody>
+        </table>
+        <!-- Pet database will go here -->
       </div>
     </main>
     <script src="pets.js"></script>
+<footer>PETS-2020</footer>
   </body>
 </html>
